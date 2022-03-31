@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header id="home">
+        <nav>
+            <div class="nav-content">
+                <div class="nav-logo-container home-link">
+                    <img src="img/logo/logo_no_board_3.svg" alt="logo">
+                    <p class="logotype">Premove</p>
+                </div>
+                <div class="nav-items-container" data-nav-break="2">
+                    <div class="nav-item nav-item--active" onclick="scrollToId('home')">Home</div>
+                    <div class="nav-item" onclick="scrollToId('openings')">Openings</div>
+                    <div class="nav-item" onclick="scrollToId('contact')">Contact</div>
+                </div>
+                <div class="nav-items-container" data-nav-break="1">
+                    <div class="nav-item">Sign up</div>
+                    <div class="nav-item">Log in</div>
+                </div>
+                <div class="nav-menu-btn-container">
+                    <div class="nav-btn"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero bg-pattern-1 parallax">
+            <div class="split">
+                <div class="relative fade-in" data-fade-dir="left" data-fade-dur="0.7">
+                    <h1><span class="clr-primary">Destroy</span> your opponents</h1>
+                    <div class="hero-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam ullam dolorum, autem, odio
+                        sequi numquam doloribus atque quas commodi, dolorem architecto alias officia eveniet eos.
+                    </div>
+                    <div class="btn btn-hero">Explore openings
+                        <div class="btn-effect"></div>
+                    </div>
+                </div>
+                <div class="hero-img-container fade-in" data-fade-dir="right" data-fade-dur="0.7">
+                    <img src="img/logo/logo_1.svg" alt="logo" class="big-logo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-neutral" id="openings">
+        <h2>Our most popular openings</h2>
+        <div class="openings-container">
+            <div class="opening-container fade-in" data-fade-dir="bottom">
+                <div class="split center">
+                    <div class="opening-content bg-dark">
+                        <h3>Win in 12 moves</h3>
+                        <h4>Fried liver</h4>
+                        <div class="opening-text">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit ad, dolorem
+                                cupiditate ea
+                                asperiores explicabo beatae. Laudantium, rem numquam!</p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit ad, dolorem
+                                cupiditate ea</p>
+                        </div>
+                        <div class="btn btn-border btn-opening">Learn more</div>
+                    </div>
+                    <div class="opening-img">
+                        <div class="bg-fried-liver"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="opening-container fade-in" data-fade-dir="bottom">
+                <div class="split center">
+                    <div class="opening-content bg-dark">
+                        <h3>Deadly gambit</h3>
+                        <h4>Danish gambit</h4>
+                        <div class="opening-text">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit ad, dolorem
+                                cupiditate ea
+                                asperiores explicabo beatae. Laudantium, rem numquam!</p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit ad, dolorem
+                                cupiditate ea</p>
+                        </div>
+                        <div class="btn btn-border btn-opening">Learn more</div>
+                    </div>
+                    <div class="opening-img">
+                        <div class="bg-danish-gambit"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="opening-container fade-in" data-fade-dir="bottom">
+                <div class="split center">
+                    <div class="opening-content bg-dark">
+                        <h3>Hypermodern opening</h3>
+                        <h4>Modern defence</h4>
+                        <div class="opening-text">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit ad, dolorem
+                                cupiditate ea
+                                asperiores explicabo beatae. Laudantium, rem numquam!</p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit ad, dolorem
+                                cupiditate ea</p>
+                        </div>
+                        <div class="btn btn-border btn-opening">Learn more</div>
+                    </div>
+                    <div class="opening-img">
+                        <div class="bg-modern-defence"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="btn btn-openings btn-filled">See all openings</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>What we offer</h2>
+        <div class="features-container">
+            <div class="center relative">
+                <div class="feature-card hide"></div>
+                <div class="feature-card">
+                    <img src="img/dollar/dollar_2.svg" alt="dollar symbol" class="feature-symbol">
+                    <h4>Completly free</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reprehenderit laborum ab, ut eius
+                        voluptatibus?</p>
+                </div>
+                <div class="feature-card hide"></div>
+            </div>
+            <div class="center relative">
+                <div class="feature-card">
+                    <img src="img/fireworks/fireworks_2.svg" alt="fireworks symbol" class="feature-symbol">
+                    <h4>Fun way to learn chess</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reprehenderit laborum ab, ut eius
+                        voluptatibus?</p>
+                </div>
+                <div class="feature-card hide"></div>
+                <div class="feature-card empty-feature"></div>
+            </div>
+            <div class="center relative">
+                <div class="feature-card hide"></div>
+                <div class="feature-card">
+                    <h4>Start today</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="btn btn-feature btn-filled-reverse">Sign up</div>
+                </div>
+                <div class="feature-card hide"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-neutral" id="contact">
+        <h2>Get in touch</h2>
+        <form action="#" class="">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="">
+            </div>
+            <div>
+                <label for="eame">Email</label>
+                <input type="text" name="email" id="">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="" cols="30" rows="5"></textarea>
+            </div>
+            <div class="btn btn-form btn-filled">Send</div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="split center home-link">
+            <img src="img/logo/logo_no_board_3.svg" alt="logo" class="footer-logo">
+            <p class="logotype">Premove</p>
+        </div>
+        <div class="flex footer-nav-container">
+            <p onclick="scrollToId('home')">Home</p>
+            <p onclick="scrollToId('openings')">Openings</p>
+            <p onclick="scrollToId('contact')">Contact</p>
+        </div>
+        <div class="flex footer-socials-container">
+            <div class="social-symbol social-facebook"></div>
+            <div class="social-symbol social-twitter"></div>
+            <div class="social-symbol social-discord"></div>
+        </div>
+        <p>@2022 All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
